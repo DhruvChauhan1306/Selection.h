@@ -1,6 +1,8 @@
 # Selection.h Header File For C++
 
-A Utility for C++, In most cases we want to show user friendly selection from options list , So here we can include "selection.h" header file instead of using switch case for showing options list. Refer below functions & their usage that are in selection.h header file.
+A Navigation Utility Using Up & Down Arrow keys for C++, In most cases we want to show user friendly selection from options list , So here we can include "selection.h" header file instead of using switch case for showing options list. Refer below functions & their usage that are in selection.h header file.
+
+Users will be able to navigate using arrow keys & will be able to select options via enter key
 
 ## Usage Limit to Windows Only
 
@@ -20,7 +22,7 @@ Windows.h is used in this development Thus Header file will run only in windows 
     - There are 0 to 255 Different Colors that can be used while selection process.
   <li>getselection()</li>
   
-    - final call to show list with header , options & applied Color.
+    - final call to show list with header , options & applied Color. (Returns Selected Option's Index)
 </ul>
 
  An Example Of how to use this header File is stated in file named testprogram.cpp (Nearest file to selection.h)
